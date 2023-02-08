@@ -6,7 +6,6 @@
 
     <com.stripe.android.view.CardNumberTextInputLayout
         android:id="@+id/tl_card_number"
-        style="@style/Stripe.CardMultilineWidget.TextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/acc_label_card_number"
@@ -32,7 +31,6 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tl_expiry"
-            style="@style/Stripe.CardMultilineWidget.TextInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/stripe_add_card_element_vertical_margin"
